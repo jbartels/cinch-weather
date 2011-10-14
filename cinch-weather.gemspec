@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 	s.description = %q{Let your cinch bot report the current weather by zipcode or city name!}
 	s.rubyforge_project = "cinch-weather"
 	
-	s.files			= `git ls-files`.split("\n")
+	s.files			= Dir['{lib}/*']
 	s.require_paths	= ["lib"]
 	s.add_dependency 'cinch', '>=1.0'
 	s.add_dependency 'nokogiri', '>=1.5.0'
