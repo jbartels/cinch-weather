@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
 	s.authors		= ["Tyler Clemens"]
 	s.email			= ["tyler.r.clemens@gmail.com"]
 	s.summary		= %q{Weather Plugin for Cinch}
+	s.homepage		= "https://rubygems.org/gems/cinch-weather"
 	s.description = %q{Let your cinch bot report the current weather by zipcode or city name!}
 	s.rubyforge_project = "cinch-weather"
 	
